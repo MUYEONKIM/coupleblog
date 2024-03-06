@@ -41,6 +41,7 @@ export default function MyAnimalPage() {
   const toggleCollapsed = () => {
     setCollapsed(!collapsed);
   };
+  console.log("qwe")
   return (
     <Layout style={{
       height: "100vh", display: "flex",
